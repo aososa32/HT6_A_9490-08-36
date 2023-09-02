@@ -1,3 +1,0 @@
-base de datos mongo.
-usuario asosad
-pass: I8NDJni2L5hqZovX
