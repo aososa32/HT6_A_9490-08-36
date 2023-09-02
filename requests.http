@@ -1,0 +1,60 @@
+###
+POST http://localhost:9000/api/CargaDatosHT5 HTTP/1.1
+Content-Type: application/json
+
+{
+     "vin": "prueba",
+    "county":"nada",
+    "city":"Guatemala",
+    "state":"Mixcp",
+    "postal_code": 10102,
+    "model_year": 2021,
+    "make":"honda",
+    "model":"XRE",
+    "electric_vehicle_type":"Hibrido",
+    "clean_alternative_fuel_vehicle":"diessel",
+    "electric_range":220,
+    "base_msrp":0,
+    "legislative_district":15,
+    "dol_vehicle_id":1202022,
+    "vehicle_location": "coodenadas",
+    "electric_utility":"ciudad y campo",
+    "census_2020_track": 3234445999
+     
+     
+}
+
+###
+GET http://localhost:9000/api/CargaDatosHT5 HTTP/1.1
+
+###
+GET http://localhost:9000/api/CargaDatosHT5/64f3828282df9b7debabbe70 HTTP/1.1
+
+###
+PUT http://localhost:9000/api/CargaDatosHT5/64f3828282df9b7debabbe70 HTTP/1.1
+Content-Type: application/json
+
+{
+     "vin": "prueba38",
+    "county":"nada",
+    "city":"Guatemala",
+    "state":"Mixcp",
+    "postal_code": 10102,
+    "model_year": 2021,
+    "make":"honda",
+    "model":"XRE",
+    "electric_vehicle_type":"Hibrido",
+    "clean_alternative_fuel_vehicle":"diessel",
+    "electric_range":220,
+    "base_msrp":0,
+    "legislative_district":15,
+    "dol_vehicle_id":1202022,
+    "vehicle_location": "coodenadas",
+    "electric_utility":"ciudad y campo",
+    "census_2020_track": 3234445999
+     
+     
+}
+
+###
+DELETE http://localhost:9000/api/CargaDatosHT5/64f3823d4ba3f4fb5183d248 HTTP/1.1
